@@ -1,0 +1,9 @@
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\DAL\bin\Debug\DAL.dll
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\DAL\bin\Debug\DAL.pdb
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\DAL\bin\Debug\DTO.dll
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\DAL\bin\Debug\DTO.pdb
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\DAL\obj\Debug\DAL.dll
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\DAL\obj\Debug\DAL.pdb

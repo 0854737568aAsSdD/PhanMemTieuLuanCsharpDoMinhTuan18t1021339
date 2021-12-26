@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{246D84ED-B466-4E51-8B55-D3459031764B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuanLySanBong</RootNamespace>
+    <AssemblyName>QuanLySanBong</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Charts, Version=14.1.0.37, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=14.1.0.37, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Layout, Version=14.1.0.37, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=14.1.0.37, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=14.1.0.37, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.37, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.Instrumentation, Version=14.1.0.37, Culture=neutral, PublicKeyToken=f90dc37c26666a67" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoanhThu.Designer.cs">
+      <DependentUpon>DoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhanVien.Designer.cs">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSan.Designer.cs">
+      <DependentUpon>frmSan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LichDatSan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LichDatSan.Designer.cs">
+      <DependentUpon>LichDatSan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManHinhChinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManHinhChinh.Designer.cs">
+      <DependentUpon>ManHinhChinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoanhThu.resx">
+      <DependentUpon>DoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNhanVien.resx">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSan.resx">
+      <DependentUpon>frmSan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LichDatSan.resx">
+      <DependentUpon>LichDatSan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManHinhChinh.resx">
+      <DependentUpon>ManHinhChinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{9e3a1c5c-6947-471b-adc0-7f922a66b41b}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SMS\BUS.csproj">
+      <Project>{94acd39e-20f3-4b1c-8dd3-c44a6f64dca3}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\husc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sanbonghue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\add_file_25px.png" />
+    <Content Include="Resources\available_updates_34px.png" />
+    <None Include="Resources\available_updates_34px1.png" />
+    <Content Include="Resources\cheap_2_25px.png" />
+    <Content Include="Resources\delete_25px.png" />
+    <None Include="Resources\delete_25px1.png" />
+    <Content Include="Resources\delete_sign_64px.png" />
+    <Content Include="Resources\football2_26px.png" />
+    <Content Include="Resources\football2_64px.png" />
+    <Content Include="Resources\forward_64px.png" />
+    <None Include="Resources\iconadd.png" />
+    <None Include="Resources\icondelete.png" />
+    <None Include="Resources\iconNhanVien.png" />
+    <None Include="Resources\iconDoanhThu.jpg" />
+    <Content Include="Resources\icons8_football2.ico" />
+    <Content Include="Resources\icons8_football2_16.png" />
+    <Content Include="Resources\icons8_football2_32.png" />
+    <Content Include="Resources\icons8_football2_48.png" />
+    <None Include="Resources\icons8_football2_64.png" />
+    <None Include="Resources\iconupdate.png" />
+    <None Include="Resources\iconsearch.png" />
+    <Content Include="Resources\import_48px.png" />
+    <Content Include="Resources\login_rounded_right_100px.png" />
+    <Content Include="Resources\login_rounded_right_32px.png" />
+    <Content Include="Resources\login_rounded_right_64px.png" />
+    <Content Include="Resources\password_64px.png" />
+    <Content Include="Resources\pencil_tip_34px.png" />
+    <None Include="Resources\pencil_tip_34px1.png" />
+    <Content Include="Resources\plus_25px.png" />
+    <None Include="Resources\plus_25px1.png" />
+    <Content Include="Resources\reset_25px.png" />
+    <None Include="Resources\sanbongne.png" />
+    <Content Include="Resources\statistic_document_25px.png" />
+    <Content Include="Resources\update_left_rotation_25px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

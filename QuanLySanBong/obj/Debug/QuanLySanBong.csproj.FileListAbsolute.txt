@@ -1,0 +1,15 @@
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\bin\Debug\QuanLySanBong.exe.config
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\bin\Debug\QuanLySanBong.exe
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\bin\Debug\QuanLySanBong.pdb
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\bin\Debug\DevComponents.DotNetBar.Schedule.dll
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\bin\Debug\DevComponents.DotNetBar.Schedule.xml
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\obj\Debug\QuanLySanBong.csprojAssemblyReference.cache
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\obj\Debug\QuanLySanBong.Form1.resources
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\obj\Debug\QuanLySanBong.Properties.Resources.resources
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\obj\Debug\QuanLySanBong.csproj.GenerateResource.cache
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\obj\Debug\QuanLySanBong.csproj.CoreCompileInputs.cache
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\obj\Debug\QuanLySanBong.csproj.CopyComplete
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\obj\Debug\QuanLySanBong.exe
+C:\Users\84854\source\repos\QuanLySanBongMini\SMS\QuanLySanBong\obj\Debug\QuanLySanBong.pdb
